@@ -34,8 +34,6 @@ python main.py
 
 ## Structure of the project
 
-## Structure of the project
-
 This project is organized as follows:
 
 ```
