@@ -58,4 +58,4 @@ This project is organized as follows:
 
 ## Additional comments
 
-There is also a jupyter notebook ```Task1.ipynb``` made in Google Colab with the results and descreptions of executed bits of the code from this project.
+There is also a jupyter notebook ```Task1.ipynb``` made in Google Colab with the results and descriptions of executed bits of the code from this project.
