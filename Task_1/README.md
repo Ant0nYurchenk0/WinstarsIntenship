@@ -1,4 +1,4 @@
-# Project Title
+# Task 1. Image classification + OOP
 
 Winstars intenship Task 1
 
