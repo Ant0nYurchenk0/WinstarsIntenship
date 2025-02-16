@@ -43,8 +43,8 @@ This project is organized as follows:
 ├── Classifiers/                        # Directory containing the model classes
 │   ├── RFClassifier.py                 # Random Forest model implementation
 │   ├── FFNNClassifier.py               # Feed-Forward Neural Network implementation
-│   └── CNNClassifier.py                # Convolutional Neural Network implementation
-│   └── MnistClassifierInterface.py     # MnistClassifierInterface definition
+│   ├── CNNClassifier.py                # Convolutional Neural Network implementation
+│   ├── MnistClassifierInterface.py     # MnistClassifierInterface definition
 │   └── MnistClassifier.py              # Wrapper class for all classifiers
 |
 ├── Helpers/                            # Directory containing helper classes
