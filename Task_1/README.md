@@ -1,4 +1,4 @@
-# Project Title
+# Task 1. Image classification + OOP
 
 Winstars intenship Task 1
 
@@ -9,6 +9,7 @@ In this task, you need to use a publicly available simple MNIST dataset and buil
 1. Random Forest;
 2. Feed-Forward Neural Network;
 3. Convolutional Neural Network;
+
 Each model should be a separate class that implements  MnistClassifierInterface  with 2 abstract methods - train and predict. Finally, each of your three models should be hidden under another  MnistClassifier  class.  MnistClassifer  takes an algorithm as an input parameter. Possible values for the algorithm are:  cnn ,  rf , and  nn  for the three models described above. The solution should contain:
 
 * Interface for models called  MnistClassifierInterface .
@@ -34,8 +35,6 @@ python main.py
 
 ## Structure of the project
 
-## Structure of the project
-
 This project is organized as follows:
 
 ```
@@ -44,8 +43,8 @@ This project is organized as follows:
 ├── Classifiers/                        # Directory containing the model classes
 │   ├── RFClassifier.py                 # Random Forest model implementation
 │   ├── FFNNClassifier.py               # Feed-Forward Neural Network implementation
-│   └── CNNClassifier.py                # Convolutional Neural Network implementation
-│   └── MnistClassifierInterface.py     # MnistClassifierInterface definition
+│   ├── CNNClassifier.py                # Convolutional Neural Network implementation
+│   ├── MnistClassifierInterface.py     # MnistClassifierInterface definition
 │   └── MnistClassifier.py              # Wrapper class for all classifiers
 |
 ├── Helpers/                            # Directory containing helper classes
@@ -60,4 +59,4 @@ This project is organized as follows:
 
 ## Additional comments
 
-There is also a jupyter notebook ```Task1.ipynb``` made in Google Colab with the results and descreptions of executed bits of the code from this project.
+There is also a jupyter notebook ```Task1.ipynb``` made in Google Colab with the results and descriptions of executed bits of the code from this project.
