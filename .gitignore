@@ -156,6 +156,16 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
+#Kaggle API key
+kaggle.json
+
+#Datasets
+Task_2/ImageClassifier/raw-img
+
+#Trained model
+
+*.weights.h5
+
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
