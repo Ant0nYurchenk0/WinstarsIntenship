@@ -18,7 +18,7 @@ The resulting model is saved into the ```image_classifier.weights.h5``` file.
 
 ## Usage
 
-1. Preprocess the data:
+1. Run the python file:
     ```sh
     python CreateImageClassifier.py
     ```
