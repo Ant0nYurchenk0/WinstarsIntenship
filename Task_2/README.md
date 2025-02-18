@@ -14,6 +14,7 @@ classes of animals.
 transformer-based model (not LLM).
 * Train the animal classification model on your dataset.
 * Build a pipeline that takes as inputs the text message and the image.
+
 In general, the flow should be the following:
 1. The user provides a text similar to “There is a cow in the picture.” and an image that
 contains any animal.
