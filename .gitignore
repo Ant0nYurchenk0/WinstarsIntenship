@@ -165,6 +165,7 @@ Task_2/ImageClassifier/raw-img
 #Trained model
 
 *.weights.h5
+*.h5
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can

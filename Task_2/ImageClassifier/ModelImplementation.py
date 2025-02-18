@@ -102,5 +102,5 @@ class ModelImplementation:
         return predicted_class
 
     def save(self, path: str) -> None:
-        save_path = os.path.join(path, "image_classifier.weights.h5")
-        self.model.save_weights(save_path)
+        save_path = os.path.join(path, "image_classifier.h5")
+        self.model.save(save_path)
