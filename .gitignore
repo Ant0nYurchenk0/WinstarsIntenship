@@ -166,6 +166,7 @@ Task_2/ImageClassifier/raw-img
 
 *.weights.h5
 *.h5
+*.pt
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
@@ -173,3 +174,8 @@ Task_2/ImageClassifier/raw-img
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+.vscode/
+
+*.png
+*.csv

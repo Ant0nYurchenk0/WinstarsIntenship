@@ -27,20 +27,22 @@ class DataGenerator:
             "Deep in the jungle, a {animal} heard a strange sound.",
             "A {animal} in the meadow noticed something glowing in the distance.",
             "Under the bright moon, a {animal} felt a strange pull towards the river.",
-            "A {animal} in the desert uncovered a long-lost relic.",
+            "A {animal} in the desert uncovered a long-lost relic."
         ]
+
         self._middles = [
-            "It met a wise old owl who shared a mysterious riddle.",
+            "It met a wise old {animal} who shared a mysterious riddle.",
             "A sudden storm forced it to seek shelter in a hidden cavern.",
             "The {animal} found a map leading to a legendary treasure.",
-            "An unexpected friend, a talking parrot, guided the {animal} along the way.",
+            "An unexpected friend, a talking bird, guided the {animal} along the way.",
             "It had to solve a puzzle to continue its journey.",
-            "A mischievous fox tried to trick the {animal} out of its findings.",
-            "The path was blocked by a giant boulder, but a kind bear helped move it.",
+            "A mischievous creature tried to trick the {animal} out of its findings.",
+            "The path was blocked by a giant boulder, but a kind {animal} helped move it.",
             "A magical pond reflected the {animal}'s deepest dreams.",
             "The {animal} discovered an ancient book filled with forgotten wisdom.",
-            "A hidden passage led the {animal} into a secret underground world.",
+            "A hidden passage led the {animal} into a secret underground world."
         ]
+
         self._endings = [
             "At last, the {animal} found what it had been searching for all along.",
             "It returned home, wiser and braver than before.",
@@ -51,7 +53,7 @@ class DataGenerator:
             "The enchanted land bid the {animal} farewell as it continued its journey.",
             "Having learned an important lesson, the {animal} shared its story with others.",
             "The {animal} knew it would return one day for another grand adventure.",
-            "As the sun set, the {animal} smiled, knowing its adventure was only the beginning.",
+            "As the sun set, the {animal} smiled, knowing its adventure was only the beginning."
         ]
 
     def generate_data(self, filepath: str, num_of_sentences: int) -> None:

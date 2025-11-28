@@ -13,21 +13,24 @@ if __name__ == "__main__":
     (
         input_ids,
         attention_mask,
-        train_tag,
+        labels,
         val_input_ids,
         val_attention_mask,
-        test_tag,
+        val_labels,
     ) = data_proc.get_train_test()
 
-    ner = AnimalNameEntityRecognizer()
+    pad_id = data_proc.get_pad_id()
+
+    ner = AnimalNameEntityRecognizer(num_labels=3, max_len=MAX_LEN)
     ner.train(
         input_ids=input_ids,
         attention_mask=attention_mask,
-        train_tag=train_tag,
+        labels=labels,
         val_input_ids=val_input_ids,
         val_attention_mask=val_attention_mask,
-        test_tag=test_tag,
-        epochs=1,
+        val_labels=val_labels,
+        pad_id=pad_id,
+        epochs=3,
     )
 
     ner.save(".")

@@ -1,6 +1,6 @@
 # Named Entity Recognizer
 
-This project is made to identify and classify named entities in text into the animal predefined category. It is made with ```TFBertModel``` in Tensorflow.
+This project is made to identify and classify named entities in text into the animal predefined category. It is made with ```BertForTokenClassification``` in PyTorch.
 
 ## Features
 

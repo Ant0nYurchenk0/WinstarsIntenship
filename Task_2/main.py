@@ -21,7 +21,7 @@ image_classes = [
 if __name__ == "__main__":
     mp = ModelPipeline(
         "./ImageClassifier/image_classifier.h5",
-        "./NamedEntityRecognizer/ner.h5",
+        "./NamedEntityRecognizer/ner.pt",
     )
 
     image_path = sys.argv[1]
